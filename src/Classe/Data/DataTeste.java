@@ -1,4 +1,4 @@
-package classe.src.Data;
+package classe.src.Classe.Data;
 
 public class DataTeste {
     public static void main(String[] args) {

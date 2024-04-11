@@ -1,19 +1,13 @@
-package classe.src.Produto;
+package classe.src.Classe.Produto;
 
 public class Produto {
     String nome;
     double preco;
-    double desconto;
+    static double desconto = 0.25;
 
     Produto(String nome, double preco) {
         this.nome = nome;
         this.preco = preco;
-    }
-
-    Produto(String nome, double preco, double desconto) {
-        this.nome = nome;
-        this.preco = preco;
-        this.desconto = desconto;
     }
 
     double desconto() {

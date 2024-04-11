@@ -1,6 +1,4 @@
-package classe.src.Data;
-
-import classe.src.Produto.Produto;
+package classe.src.Classe.Data;
 
 public class Data {
     int dia;
