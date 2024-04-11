@@ -1,9 +1,9 @@
 package classe.src.Classe.Data;
 
 public class Data {
-    int dia;
-    int mes;
-    int ano;
+    public int dia;
+    public int mes;
+    public int ano;
 
     Data() {
         dia = 01;
@@ -11,13 +11,13 @@ public class Data {
         ano = 1970;
     }
 
-    Data(int dia, int mes, int ano) {
+    public Data(int dia, int mes, int ano) {
         this.dia = dia;
         this.mes = mes;
         this.ano = ano;
     }
 
-    String obterDataFormatada() {
+    public String obterDataFormatada() {
         return String.format("%d/%d/%d\n", dia, mes, ano);
     }
 }
