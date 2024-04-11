@@ -7,6 +7,6 @@ public class DataTeste {
         data1.mes = 10;
         data1.ano = 2004;
 
-        System.out.printf("%d/%d/%d\n", data1.dia, data1.mes, data1.ano);
+        System.out.printf(data1.obterDataFormatada());
     }
 }
