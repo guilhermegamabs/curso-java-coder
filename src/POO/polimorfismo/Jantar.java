@@ -8,7 +8,6 @@ public class Jantar {
         Feijao ingrediente2 = new Feijao(0.25);
         Sorvete sobremesa = new Sorvete(0.50);
 
-
         p1.comer(ingrediente2);
 
         System.out.println(p1.getPeso());
