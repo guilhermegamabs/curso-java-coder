@@ -2,7 +2,8 @@ package classe.src.POO.heranca.desafio;
 
 public class Teste {
     public static void main(String[] args) {
-        Carro jetta = new Jetta(220);
+        Jetta jetta = new Jetta(220);
+        jetta.ligarTurbo();
         jetta.acelerar();
         System.out.println(jetta.velAtual);
 
