@@ -11,7 +11,7 @@ public class Foreach {
         for(String aprovado : aprovados) {
             System.out.println(aprovado);
         }
-        
+
         System.out.println();
         System.out.println("Lambda #01: ");
         aprovados.forEach((nome) -> System.out.println(nome));
