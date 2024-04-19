@@ -14,4 +14,10 @@ public class Aluno {
     Aluno(String nome, double nota) {
         this(nome, nota, true);
     }
+
+
+    @Override
+    public String toString() {
+        return nome + " tem nota " + nota;
+    }
 }
